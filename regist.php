@@ -30,7 +30,7 @@
         if($wszystko_ok == true){
             
             //NAZWA
-            $conn = mysqli_connect('localhost', 'root','', 'osadnicy');
+            $conn = mysqli_connect('remotemysql.com', 'G0FFCT0yDZ','1pZL8eA4jX', 'G0FFCT0yDZ');
             $resultat = mysqli_query($conn, "SELECT id FROM uzytkownicy WHERE name='$name'");
             
             $ile_nazw = mysqli_num_rows($resultat);

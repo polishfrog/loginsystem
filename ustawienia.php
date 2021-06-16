@@ -13,7 +13,7 @@
         
             session_start();
         
-            $conn = mysqli_connect('localhost', 'root','', 'osadnicy');
+            $conn = mysqli_connect('remotemysql.com', 'G0FFCT0yDZ','1pZL8eA4jX', 'G0FFCT0yDZ');
             $id = $_SESSION['id'];
             $query1 = "SELECT uzytkownicy.email, uzytkownicy.Imie, uzytkownicy.Nazwisko, uzytkownicy.City, uzytkownicy.Wiek, uzytkownicy.nazwisko_pub, uzytkownicy.city_pub, uzytkownicy.wiek_pub FROM uzytkownicy WHERE uzytkownicy.id = '".$_SESSION['id']."'";
         

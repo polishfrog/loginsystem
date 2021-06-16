@@ -3,7 +3,7 @@
 
 session_start();
 
-$conn = mysqli_connect('localhost', 'root','', 'osadnicy');
+$conn = mysqli_connect('remotemysql.com', 'G0FFCT0yDZ','1pZL8eA4jX', 'G0FFCT0yDZ');
 
 $query1 = "SELECT uzytkownicy.name, uzytkownicy.pass, uzytkownicy.id FROM uzytkownicy";
 
