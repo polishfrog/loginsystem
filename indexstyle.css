@@ -1,0 +1,76 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100vh;
+    width: 100%;
+    background: rgb(226,10,207);
+    background: linear-gradient(243deg, rgba(226,10,207,1) 0%, rgba(255,0,86,1) 100%);
+    font-size: 18px;
+}
+
+.bg{
+    width: 400px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 19px;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.bg form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.bg form input{
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    font-size: 140%;
+    border:none;
+    background-color: gray;
+    color: white;
+}
+
+.bg form input:active{
+    background-color: gray;
+}
+
+.info{
+    font-size: 240%;
+    position:absolute;
+    left: 26%;
+    bottom: 290px;
+}
+
+.rose{
+    color: white;
+    width: 250px;
+    height: 60px;
+    background: rgb(226,10,207);
+    background: linear-gradient(243deg, rgba(226,10,207,1) 0%, rgba(255,0,86,1) 100%);
+    box-shadow: 5px 5px 15px 5px #000000;
+    cursor: pointer;
+    
+
+}
+
+.bg form a{
+    text-decoration: none;
+    color: black;
+    font-size: 140%;
+}
+
+.t{
+    background-color: gray;
+}
+
