@@ -23,8 +23,9 @@
                     <input type="text" name="imie" placeholder="imie"><br>
                     <input type="text" name="nazwisko" placeholder="nazwisko"><br>
                     <input type="submit" value="zarejestruj się" class="rose">
+                    <br><br>
                     <a href="index.php">Wróć</a>
-                </div><br><br>
+                </div>
                 <?php if(!empty($_SESSION['brak'])){
                     echo '<p style="color:red">'.$_SESSION['brak'].'</p>';
                 }
