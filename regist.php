@@ -56,7 +56,7 @@
             }
             //DODAWANIE DO BAZY
             if($wszystko_ok == true){
-                $zapytanko = "INSERT INTO uzytkownicy (`name`, `pass`, `email`, `Imie`, `Nazwisko`) VALUES ($name', '$haslo_hash', '$email', '$imie', '$nazwisko')";
+                $zapytanko = "INSERT INTO uzytkownicy (`name`, `pass`, `email`, `Imie`, `Nazwisko`) VALUES ('$name', '$haslo_hash', '$email', '$imie', '$nazwisko')";
                 
                 $result = mysqli_query($conn, $zapytanko);
                 
