@@ -24,7 +24,7 @@
                     <input type="text" name="nazwisko" placeholder="nazwisko"><br>
                     <input type="submit" value="zarejestruj się" class="rose">
                     <a href="index.php">Wróć</a>
-                </div>
+                </div><br><br>
                 <?php if(!empty($_SESSION['brak'])){
                     echo '<p style="color:red">'.$_SESSION['brak'].'</p>';
                 }
