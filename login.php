@@ -26,11 +26,11 @@ while($row = mysqli_fetch_row($resul1)){
                 header('Location: pulpit.php');
                 
             }else{
-                $_SESSION['blad'] = ("Błędny login lub hasło");
+                $_SESSION['blad'] = ("Błędne hasło");
                 header('Location: index.php');
             }
         }else{
-            $_SESSION['blad'] = ("Błędny login lub hasło");
+            $_SESSION['blad'] = ("Błędny login");
             header('Location: index.php');
         }
     }
