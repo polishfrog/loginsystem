@@ -32,6 +32,7 @@ body{
 
 .lewy, .prawy, .srodek{
     float: left;
+    height: 500px;
 }
 
 
