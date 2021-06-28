@@ -17,10 +17,22 @@
         </div>
         
         <div class="lewy">
-        
+            
+            <div class="znajomy">
+                <div class="pznajomy">
+                png
+                </div>
+                <div class="lznajomy">
+                Nikt<br>
+                </div>
+            </div>
+            
         </div>
         <div class="srodek">
-        
+            <form action="pulpit.php">
+                <textarea maxlength="255"></textarea><br>
+                <input type="submit" value="Wyślij">
+            </form>
         </div>
         <div class="prawy">
         
