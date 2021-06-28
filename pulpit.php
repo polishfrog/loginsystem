@@ -16,5 +16,15 @@
             <div class="przyciski"><a href="logout.php">Wyloguj</a></div>
         </div>
         
+        <div class="lewy">
+        
+        </div>
+        <div class="srodek">
+        
+        </div>
+        <div class="prawy">
+        
+        </div>
+        
     </body>
 </html>
